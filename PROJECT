@@ -1,0 +1,11 @@
+domain: com
+layout: go.kubebuilder.io/v2
+projectName: projects
+repo: github.com/example/finalizers
+resources:
+- group: example
+  kind: ServiceInstance
+  version: v1alpha1
+version: 3-alpha
+plugins:
+  go.sdk.operatorframework.io/v2-alpha: {}
